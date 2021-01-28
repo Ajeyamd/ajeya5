@@ -1,12 +1,12 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 9900;
+const port = process.env.PORT || 9989;
 const mongo = require('mongodb');
 const MongoClient = mongo.MongoClient;
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
-const mongourl = "mongodb+srv://dev:mongo123@cluster0.f8vmc.mongodb.net/edurekinternship?retryWrites=true&w=majority";
+const mongourl = "mongodb+srv://Ajeya:ajeyamd123@cluster0.jm1j9.mongodb.net/Ajeya?retryWrites=true&w=majority";
 let db;
 
 app.use(cors());
